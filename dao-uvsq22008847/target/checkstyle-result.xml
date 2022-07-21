@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.2.1">
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\Dao.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\DaoFactory.java">
+<error line="20" column="3" severity="warning" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="20" column="43" severity="warning" message="第 43 个字符 &apos;}&apos; 应独占一行。" source="RightCurlyAlone"/>
+<error line="27" column="3" severity="warning" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\EmployeeJdbcDao.java">
+<error line="5" column="16" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - java.sql.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="70" severity="warning" message="本行字符数 129个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\EmployeeSerializedDao.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\JdbcDaoFactory.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\dao\SerializedDaoFactory.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\Employee.java">
+<error line="5" column="17" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - java.util.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="52" column="5" severity="warning" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="53" column="5" severity="warning" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="55" severity="warning" message="本行字符数 212个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\OrganizationElement.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\PhoneNumber.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\PhoneNumberType.java">
+</file>
+<file name="E:\Code\MIN17201_TD3\dao-uvsq22008847\src\main\java\fr\uvsq\hal\pglp\patterns\Team.java">
+</file>
+</checkstyle>
